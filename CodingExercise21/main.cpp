@@ -14,7 +14,7 @@ void cpp_strings() {
     cout << journal_entry_1 << "\n" << journal_entry_2;
 }
 
-    int main() {
+    int main() {  //nurlan
 
         cpp_strings();
         return 0;
