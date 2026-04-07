@@ -1,0 +1,43 @@
+Question 1:
+C-style strings are terminated with a(n)__________.
+Ans: null character \0
+
+Question 2:
+The function we can use to copy one C-style string to another is _________?
+Ans: strcpy
+
+Question 3:
+In order to use C-style string functions we must #include________.
+Ans: <cstring>
+
+Question 4:
+To convert a char to its upper case equivalent we can use the _____ function.
+Ans: toupper
+
+Question 5:
+The C-style string name[6] can _______.
+Ans : contain the name "Curly"
+
+Question 6:
+In order to use a C++ string object, we must #include _____.
+Ans: <string>
+
+Question 7:
+The + operator allows us to ________ to C++ strings.
+Ans: concatenate
+
+Question 8:
+In order to find the index of a substring within a C++ string, we can use the _______ method.
+Ans: find
+
+Question 9:
+We can compare two C++ strings using the _______.
+Ans: == operator
+
+Question 10:
+Which of the following are true about C++ strings?
+Ans:
+C++ strings are objects
+C++ strings have a rich set of member methods
+C++ strings are preferred over C-style strings
+C++ strings can change in size dynamically
