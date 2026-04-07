@@ -19,3 +19,46 @@
 
  Remember, the less code you write the less code you have to test! Reuse existing functionality in libraries and in the std:string class!
  */
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+
+ string alphabet {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
+ string key  {"XZNLWEBGJHQDYVTKFUOMPCIASRxznlwebgjhqdyvtkfuompciasr"};
+
+ string secret_message {};
+ cout << "Enter your secret message : ";
+ getline(cin, secret_message);
+
+ string encrypted_message {};
+
+ cout << "\nEncrypted message..." << endl;
+
+ for (char c: secret_message) {
+  size_t position = alphabet.find(c);
+  if (position != string::npos) {
+   char new_char { key.at(position) };
+   encrypted_message += new_char;
+  } else {
+       encrypted_message += c;
+  }
+ }
+
+ cout << "\nEncrypted message: " << encrypted_message << endl;
+
+ cout << endl;
+ return 0;
+}
