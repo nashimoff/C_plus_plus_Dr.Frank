@@ -2,7 +2,7 @@
 //Math examples
 
 #include <iostream>
-#include <cmath>
+#include <cmath> //required
 
 using namespace std;
 
@@ -20,4 +20,36 @@ int main() {
     cout << "The cosine of " << num << "is: " << cos(num) << endl;
 
     cout << "The ceil of " << num << "is: " << ceil(num) << endl;
+    cout << "The floor of " << num << "is: " << floor(num) << endl;
+    cout << "The round of " << num << "is: " << round(num) << endl;
+
+
+    double power {};
+    cout << "\nEnter a power to raise " << num << " to: ";
+    cin >> power;
+    cout << num << "raised to the " << power << " power is: " << pow(num, power) << endl;
+
+    cout << endl;
+    return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
