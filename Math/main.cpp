@@ -2,7 +2,7 @@
 //Math examples
 
 #include <iostream>
-#include <cmath>
+#include <cmath> //required
 
 using namespace std;
 
