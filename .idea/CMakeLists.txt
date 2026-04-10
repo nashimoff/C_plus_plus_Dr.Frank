@@ -11,4 +11,5 @@ add_executable(_idea
         vcs.xml
         workspace.xml
         ../Math/main.cpp
-        ../Section11/Random/main.cpp)
+        ../Section11/Random/main.cpp
+        ../Section11/CodingExercise22/main.cpp)
