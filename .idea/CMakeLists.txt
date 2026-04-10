@@ -12,4 +12,5 @@ add_executable(_idea
         workspace.xml
         ../Math/main.cpp
         ../Section11/Random/main.cpp
-        ../Section11/CodingExercise22/main.cpp)
+        ../Section11/CodingExercise22/main.cpp
+        ../Section11/FunctionDefinitions/main.cpp)
