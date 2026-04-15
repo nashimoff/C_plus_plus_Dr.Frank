@@ -13,4 +13,5 @@ add_executable(_idea
         ../Math/main.cpp
         ../Section11/Random/main.cpp
         ../Section11/CodingExercise22/main.cpp
-        ../Section11/FunctionDefinitions/main.cpp)
+        ../Section11/FunctionDefinitions/main.cpp
+        ../Section11/FunctionPrototypes/main.cpp)
