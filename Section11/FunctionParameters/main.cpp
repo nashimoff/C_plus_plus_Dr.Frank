@@ -44,14 +44,15 @@ int main() {
     string name {"Frank"};
     cout << "\nname before calling pass_by_value2: " << name << endl;
     pass_by_value2(name);
-    cout << "\nname after calling pass_by_value2: " << name << endl;
+    cout << "name after calling pass_by_value2: " << name << endl;
 
     vector<string> stooges {"Larry", "Moe", "Curly"};
     cout << "\nstooges before calling pass_by_value3: ";
-    print_vetor(stooges);
+    print_vector(stooges);
     pass_by_value3(stooges);
-    cout << "stooges before calling pass_by_value3: ";
+    cout << "stooges after calling pass_by_value3: ";
+    print_vector(stooges);
 
-
+    cout << endl;
     return 0;
 }
