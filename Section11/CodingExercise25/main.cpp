@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-using namespace std;
+using namespace std;//
 
 int find_area(int);
 double find_area(double, double);
