@@ -5,10 +5,13 @@
 build/
 build-Debug/
 build-Release/
+cmake-build-debug/        # ← add this (CLion's default build folder)
+cmake-build-release/      # ← add this
 
 # IDE files
 .vscode/
 .codelite/
+.idea/                    # ← add this (CLion's project settings folder)
 
 # clang / tooling
 .cache/
